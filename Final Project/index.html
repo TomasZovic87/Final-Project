@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Watcher</title>
+  <link rel="stylesheet" href="../Final Project/styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="/Final Project/logo.png" alt="Weather Watcher Logo">
+      <h1>Weather For You</h1>
+    </div>
+  </header>
+
+  <main>
+        <section class="search-section">
+            <h2>Check the Weather</h2>
+            <input 
+              type="text" 
+              id="locationInput" 
+              placeholder="Enter city name or ZIP code" 
+              aria-label="Enter location"
+            />
+            <button id="searchButton">Search</button>
+        </section>
+  
+        <section class="weather-display">
+            <h2>Current Weather</h2>
+            <div id="currentWeather" class="weather-card">
+            <p>Search for a location to see the weather details!</p>
+            </div>
+        </section>
+    
+        <section class="forecast-section">
+            <h2>5-Day Forecast</h2>
+            <div id="forecastContainer" class="forecast-grid">
+            </div>
+        </section>
+
+    </main>
+
+  <footer>
+    <p>© 2024 Weather For You. All rights reserved.</p>
+  </footer>
+
+  <script src="../Final Project/scriptApi.js"></script>
+</body>
+</html>

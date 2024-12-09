@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #87ceeb, #f0f8ff);
+    color: #333;
+}
+  
+h1, h2 {
+    text-align: center;
+    color: #005f73;
+}
+  
+header {
+    background-color: #023047;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+  
+header img {
+    width: 50px;
+    height: 50px;
+}
+  
+main {
+    padding: 2rem;
+    padding-bottom: 5rem;
+}
+  
+.search-section {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+  
+.search-section input {
+    padding: 0.5rem;
+    width: 70%;
+    max-width: 400px;
+    border: 2px solid #005f73;
+    border-radius: 5px;
+}
+  
+.search-section button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #005f73;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+  
+.search-section button:hover {
+    background-color: #007f91;
+}
+  
+.weather-display, .forecast-section {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+  
+#currentWeather p {
+    text-align: center;
+    font-style: italic;
+}
+ 
+#forecastContainer {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+  
+#forecastContainer .forecast-item {
+    background: #f0f8ff;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    background-color: #34495e;
+    color: white;
+    font-size: 0.9rem;
+    z-index: 10;
+}
+
+#clearStorageButton {
+    display: block;
+    margin: 1rem auto 0;
+    background-color: #e74c3c;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+  
+#clearStorageButton:hover {
+    background-color: #c0392b;
+}
+  
